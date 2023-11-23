@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green ;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header .Logo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 500px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul li button{
+    background-color: honeydew;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color:black;
+    border-radius: 360px;
+    text-align: left;
+    cursor: text;
+}
+
+header .login button.signup{
+    color: chocolate;
+    border-radius: 360px;
+    border: none;
+    background-color: aquamarine;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: text;
+}
+
+header .login button.login{
+    color: chocolate;
+    border-radius: 360px;
+    border: none;
+    background-color: aquamarine;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header .login button.login:hover{
+    background-color: gold;
+    color: aquamarine;
+    transition: ease-in-out 0.3s;
+}
